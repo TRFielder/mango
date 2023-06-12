@@ -12,7 +12,9 @@ export default async function Home() {
 		<main>
 			{session?.user?.name ? (
 				<section>
-					<p>"You are signed in"</p> <SignOut />
+					<p>"You are signed in"</p>
+					<p>Welcome, {session.user.name}</p>
+					<SignOut />
 				</section>
 			) : (
 				<SignIn />
