@@ -9,15 +9,7 @@ export default async function Home() {
 
 	return (
 		<main>
-			{session?.user?.name ? (
-				<>
-					<p>You are signed in</p>
-					<p>Welcome, {session.user.name}</p>
-					<SignOut />
-				</>
-			) : (
-				<Hero />
-			)}
+			<Hero />
 		</main>
 	);
 }

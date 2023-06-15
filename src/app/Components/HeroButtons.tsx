@@ -9,7 +9,14 @@ const HeroButtons = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	return (
 		<>
-			<Button rounded={"full"} bg={"blue.400"} color={"white"} _hover={{ bg: "blue.500" }} rightIcon={<FcGoogle />} onClick={() => signIn("google")}>
+			<Button
+				rounded={"full"}
+				bg={"blue.400"}
+				color={"white"}
+				_hover={{ bg: "blue.500" }}
+				rightIcon={<FcGoogle />}
+				onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
+			>
 				Sign In with Google
 			</Button>
 			<Button onClick={onOpen} rounded={"full"}>
