@@ -4,8 +4,8 @@ import Providers from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-	title: "Telemeasure",
-	description: "The television metrology application",
+	title: "Mango",
+	description: "The manga metrology application",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

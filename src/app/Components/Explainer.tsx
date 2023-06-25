@@ -10,11 +10,11 @@ const Explainer = ({ isOpen, onClose }: ExplainerProps) => {
 		<Modal isOpen={isOpen} onClose={onClose}>
 			<ModalOverlay />
 			<ModalContent>
-				<ModalHeader color="#1A202C">About Telemeasure</ModalHeader>
+				<ModalHeader color="#1A202C">About Mango</ModalHeader>
 				<ModalCloseButton />
 				<ModalBody color="#1A202C">
-					Telemeasure is a project I'm using as an excuse to tinker with Next.js and Chakra UI. Beyond that, it's a nice outlet for the creative urges
-					once I've finished work!
+					Mango is a project I'm using as an excuse to tinker with Next.js and Chakra UI. Beyond that, it's a nice outlet for the creative urges once
+					I've finished work!
 				</ModalBody>
 
 				<ModalFooter>

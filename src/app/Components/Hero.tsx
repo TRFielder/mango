@@ -26,12 +26,12 @@ const Hero = () => {
 						</Text>
 						<br />{" "}
 						<Text color={"blue.400"} as={"span"}>
-							Your television
+							Your mangos
 						</Text>{" "}
 					</Heading>
 					<Text fontSize={{ base: "md", lg: "lg" }} color={"white"}>
-						Telemeasure is a tool to track your enjoyment of the shows you watch. Rate each episode and compare it against others - share your
-						opinion with your friends or see how your views stack up against the global average.
+						Mango is a tool to track your enjoyment of the manga you read. Rate each chapter and compare it against others - share your opinion with
+						your friends or see how your views stack up against the global average.
 					</Text>
 					<Stack direction={{ base: "column", md: "row" }} spacing={4}>
 						<HeroButtons />

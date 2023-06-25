@@ -20,7 +20,7 @@ const HeroButtons = () => {
 				Sign In with Google
 			</Button>
 			<Button onClick={onOpen} rounded={"full"}>
-				About Telemeasure
+				About Mango
 			</Button>
 			<Explainer isOpen={isOpen} onClose={onClose} />
 		</>
