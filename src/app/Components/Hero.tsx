@@ -1,5 +1,6 @@
-import { Flex, Heading, Image, Stack, Text, Tooltip } from "./ClientChakra";
+import { Flex, Heading, Image, Stack, Text, Tooltip, Button } from "./ClientChakra";
 import HeroButtons from "./HeroButtons";
+import { useColorMode } from "./ClientChakra";
 
 const Hero = () => {
 	return (

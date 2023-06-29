@@ -1,5 +1,6 @@
-import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
+import { extendTheme } from "@chakra-ui/react";
+import { menuTheme } from "./Components/NavBar/menuTheme";
 
 const theme = extendTheme({
 	config: {
@@ -13,6 +14,9 @@ const theme = extendTheme({
 				color: mode("#1A202C", "#EDF2F7")(props),
 			},
 		}),
+	},
+	components: {
+		Menu: menuTheme,
 	},
 });
 
